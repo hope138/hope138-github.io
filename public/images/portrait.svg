@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800">
+  <defs>
+    <linearGradient id="room" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#16182b"/>
+      <stop offset="55%" stop-color="#0c0d16"/>
+      <stop offset="100%" stop-color="#050506"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx="50%" cy="22%" r="55%">
+      <stop offset="0%" stop-color="#7a84ee" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5e6ad2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="800" fill="url(#room)"/>
+  <rect width="640" height="800" fill="url(#lamp)"/>
+  <rect x="48" y="70" width="250" height="160" rx="16" fill="#101218" stroke="#5e6ad2" stroke-opacity="0.45"/>
+  <rect x="68" y="96" width="150" height="10" rx="5" fill="#bdc2ff" fill-opacity="0.8"/>
+  <rect x="68" y="118" width="200" height="8" rx="4" fill="#8a8f98" fill-opacity="0.45"/>
+  <rect x="68" y="136" width="170" height="8" rx="4" fill="#8a8f98" fill-opacity="0.3"/>
+  <rect x="68" y="168" width="70" height="28" rx="8" fill="#5e6ad2"/>
+  <rect x="340" y="110" width="250" height="120" rx="16" fill="#101218" stroke="rgba(255,255,255,0.08)"/>
+  <polyline points="360,200 390,170 420,186 460,140 500,168 540,128 570,150" fill="none" stroke="#bdc2ff" stroke-width="3"/>
+  <circle cx="320" cy="390" r="92" fill="#d9d6ea"/>
+  <path d="M228 392c8-70 46-112 92-112s84 46 92 112c0 16-28 22-48 14-12 28-76 28-88 0-20 8-48 2-48-14z" fill="#1c1733"/>
+  <path d="M150 760c18-120 78-190 170-190s152 70 170 190" fill="#242846"/>
+  <rect x="250" y="470" width="140" height="18" rx="9" fill="#5e6ad2" fill-opacity="0.35"/>
+</svg>
