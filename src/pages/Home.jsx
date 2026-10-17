@@ -229,7 +229,7 @@ export default function Home() {
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 alt="深色多模态生成界面，带有音频波形与节点图"
-                src="/images/multimodal.svg"
+                src={`${import.meta.env.BASE_URL}images/multimodal.svg`}
               />
               <div className="absolute inset-0 flex items-end bg-gradient-to-t from-background-deep via-background-deep/40 to-transparent p-4">
                 <div className="flex w-full items-center justify-between">

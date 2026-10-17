@@ -15,11 +15,11 @@ function githubPagesStatic() {
   }
 }
 
-export default defineConfig({
-  base: '/',
+export default defineConfig(({ command }) => ({
+  base: command === 'build' ? '/hope138-github.io/' : '/',
   plugins: [react(), tailwindcss(), githubPagesStatic()],
   build: {
     outDir: 'docs',
     emptyOutDir: true,
   },
-})
+}))

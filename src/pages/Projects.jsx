@@ -172,7 +172,7 @@ export default function Projects() {
                   <img
                     className="h-full w-full object-cover opacity-80 transition-all duration-500 group-hover:scale-105 group-hover:opacity-100"
                     alt="文档向量化与表格解析的深色界面"
-                    src="/images/neuraldoc.svg"
+                    src={`${import.meta.env.BASE_URL}images/neuraldoc.svg`}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background-elevated via-transparent to-transparent" />
                   <div className="absolute bottom-2 left-3 flex items-center gap-1.5 rounded bg-background-deep/80 px-2 py-0.5 font-label-sm text-label-sm text-foreground">

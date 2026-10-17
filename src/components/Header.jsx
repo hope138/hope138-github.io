@@ -50,7 +50,7 @@ export default function Header() {
 
           <div className="flex items-center border-l border-border-default pl-2">
             <div className="relative rounded-full p-0.5 ring-1 ring-border-default transition-all duration-200 hover:ring-border-accent">
-              <img alt="Hope" className="h-8 w-8 rounded-full object-cover" src="/images/avatar.svg" />
+              <img alt="Hope" className="h-8 w-8 rounded-full object-cover" src={`${import.meta.env.BASE_URL}images/avatar.svg`} />
               <span className="absolute right-0 bottom-0 h-2 w-2 rounded-full bg-primary ring-2 ring-background-base" />
             </div>
           </div>

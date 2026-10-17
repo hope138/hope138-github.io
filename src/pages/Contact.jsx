@@ -76,7 +76,7 @@ export default function Contact() {
                 <img
                   alt="Hope"
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  src="/images/avatar.svg"
+                  src={`${import.meta.env.BASE_URL}images/avatar.svg`}
                 />
               </div>
               <div className="flex min-w-0 flex-col">

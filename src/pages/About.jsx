@@ -124,7 +124,7 @@ export default function About() {
                 <img
                   className="h-full w-full object-cover"
                   alt="Hope，AI 产品经理，在靛蓝色灯光的工作室中"
-                  src="/images/portrait.svg"
+                  src={`${import.meta.env.BASE_URL}images/portrait.svg`}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background-deep via-transparent to-transparent" />
                 <div className="absolute right-4 bottom-4 left-4 rounded-lg bg-surface-container-lowest/80 p-4 backdrop-blur-md">
